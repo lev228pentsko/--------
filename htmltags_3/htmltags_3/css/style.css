@@ -1,0 +1,65 @@
+#btn1 {
+    margin-bottom: 50px;
+    margin-left: 45%;
+    background-color: #ba2323;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px ;
+    border-width: 2px;
+    border-color: #c5b5b5;
+}
+#btn1:hover {
+    background-color: white;
+    color: #ba2323;
+    border-radius: 10px ;
+    border-width: 2px;
+    border-color: #ba2323;
+}
+.password {
+    background-color: #25549a;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-left: 45%;
+    position: relative;
+    
+}
+.password p {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 100px;
+    padding: 0 50px;
+  }
+
+.nav-bar {
+    background-color: black;
+    color: orange;
+    height: 50px;
+}
