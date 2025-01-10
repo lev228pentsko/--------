@@ -1,0 +1,33 @@
+.welcome {
+    margin-top: -100px;
+    padding: 240px 0;
+    background-image: url("../images/welcome-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.welcome__subtitle {
+    margin-top: 0;
+    margin-bottom: 7px;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.welcome__title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 57.33px;
+}
+
+.welcome__desc {
+    margin: 40px 0;
+    font-size: 18px;
+    opacity: 0.7;
+    font-weight: 300;
+    width: 520px;
+}
+
+.welcome__text {
+    width: 555px;
+}

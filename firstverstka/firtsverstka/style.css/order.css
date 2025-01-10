@@ -1,0 +1,56 @@
+h1{
+    margin: 0;
+}
+.order {
+    background-color: #312F30;
+    padding: 60px 0;
+}
+
+.order .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 105px;
+}
+.order__text {
+    width: 370px;
+}
+.order__img {
+    max-width: 470px;
+    background-position: cover;
+}
+
+.order__title{
+    font-size: 44.2px;
+    font-weight: 500;
+}
+
+.order__desc {
+    opacity: 0.7;
+    font-weight: 300;
+
+    margin-top: 24px;
+}
+
+.order__new-price{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F6762C;
+}
+
+.order__old-price {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: #F6762C;
+    opacity: 0.5;
+    margin-left: 3px;
+}
+
+.order__price {
+    margin-top: 13px;
+}
+
+.order .btn {
+    margin-top: 11px;
+}

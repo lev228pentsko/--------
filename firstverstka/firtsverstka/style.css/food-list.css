@@ -1,0 +1,44 @@
+h4 {
+    margin: 0;
+}
+.food-list {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.food-list .container {
+    flex-wrap: wrap;
+    gap: 40px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.food-list__card {
+    text-align: center;
+    background-color: #312F30;
+    border-radius: 10px;
+    width: 260px;
+    height: 323px;
+    overflow: hidden;
+}
+
+.food-list__img {
+    max-width: 100%;
+    height: 175px;
+    background-position: cover;
+    
+}
+
+.food-list__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.food-list__desc {
+    margin-top: 13px;
+    opacity: 0.7;
+    font-weight: 300;
+}
+
+.food-list__text-wrapper {
+    padding: 28px 19px 35px 19px;
+}

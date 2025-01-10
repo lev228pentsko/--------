@@ -1,0 +1,66 @@
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 0.7;
+    transition: opacity 0.3s
+}
+.footer h1:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s
+}
+.footer p:hover {
+    opacity: 0.9;
+}
+.footer h1{
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer {
+    padding-top: 120px;
+    box-sizing: border-box;
+    height: 380px;
+    background-color: #1C1C1C;
+}
+
+.footer__firts {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__firts_desc-1{
+    margin-top: 24px;
+}
+.footer__firts_desc-2 {
+    margin-top: 9px;
+}
+.footer__firts_desc-1::before {
+    content: url(/images/icons/mail.svg);
+    padding-right: 10px;
+}
+.footer__firts_desc-2::before {
+    content: url(/images/icons/global.svg);
+    padding-right: 10px;
+}
+.footer__second_desc-1, .footer__third_desc-1, .footer__fourth_desc-1{
+    margin-top: 14px;
+}
+.footer__second, .footer__third, .footer__fourth {
+    padding-right: 158px;
+}
+.footer__first {
+    padding-right: 90px;
+}
+.footer__fifth-img {
+    margin-top: 16px;
+    display: flex;
+    gap: 10px;
+}
+.footer__second, .footer__third, .footer__fourth,.footer__fifth{
+    align-self: stretch;
+}
