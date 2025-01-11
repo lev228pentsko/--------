@@ -1,0 +1,24 @@
+.address_blocks {
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address_block {
+    background-color: #fff;
+    width: 385px;
+    height: 195px;
+    padding: 39px 48px 37px 39px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.address__title{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.address__desc{
+    margin-top: 15px;
+    color: #B7B7B7;
+    font-size: 18px;
+    font-weight: 400;
+}

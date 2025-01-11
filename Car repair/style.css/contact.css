@@ -1,0 +1,72 @@
+.contact {
+    padding-bottom: 100px;
+    background-color: #171616;
+}
+.contact .contair {
+    padding: 0 7px;
+}
+.contact__title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+.contact__input{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 200px;
+    margin-top: 45px;
+}
+input {
+    background-color: #171616;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    transition: none;
+    color: #fff;
+}
+.contact__input-pt1 {
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+
+}
+.contact__input-pt2 {
+    display: flex;
+    flex-direction: column;
+}
+.contact__input-pt3 {
+    margin-top: 54px;
+    
+}
+.contact__input-pt3 > .contact__input > p {
+    padding-bottom: 110px;
+}
+.contact__input-pt3 > .contact__input {
+    width: 445px;
+}
+.telephone > p{
+    font-size: 12px;
+    font-weight: 400;
+}
+p {
+    letter-spacing: 2px;
+    color: #fff;
+}
+.small {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.contacn__column {
+    display: flex;
+    gap: 45px;
+}
+.contact .btn {
+    margin-top: 37px;
+    text-transform: uppercase;
+}

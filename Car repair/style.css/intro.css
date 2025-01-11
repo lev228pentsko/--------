@@ -1,0 +1,27 @@
+.intro {
+    width: auto;
+    height: 750px;
+    background-image: url('/images/background.png');
+    margin-top: -100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.intro .container {
+    padding-left: 15px;
+}
+
+.intro__title {
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.intro .btn {
+    margin-top: 53px;
+}
+
+.intro__text{
+    padding: 217px 0 0 15px;
+    width: 850px;
+}

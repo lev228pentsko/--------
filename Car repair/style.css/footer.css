@@ -1,0 +1,18 @@
+.footer {
+    padding: 65px 0;
+}
+.footer .container {
+    padding: 0 7px;
+}
+.container__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container__text-title {
+    font-size: 15px;
+    font-weight: 400;
+}
+.container__text-img {
+    gap: 20px;
+}
