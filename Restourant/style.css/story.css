@@ -1,0 +1,76 @@
+.story {
+  font-family: "Inter";
+  padding-bottom: 250px;
+}
+.story .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 196px;
+}
+.story .container .story__text {
+  width: 730px;
+}
+.story .container .story__text h2 {
+  color: #FF6868;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.story .container .story__text h1 {
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+.story .container .story__text p {
+  margin-top: 50px;
+  width: 615px;
+  line-height: 160%;
+  font-size: 26px;
+  font-weight: 500;
+  color: #555555;
+}
+.story .container .story__text .btn {
+  width: 215px;
+  height: 80px;
+  border-radius: 40px;
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.story .container .story__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+}
+.story .container .story__cards .story__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 277px;
+  height: 300px;
+  color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.story .container .story__cards .story__card img {
+  margin-top: 45px;
+}
+.story .container .story__cards .story__card h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 32px;
+  text-transform: uppercase;
+  color: #5FE26C;
+}
+.story .container .story__cards .story__card p {
+  color: #90BD95;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 17px;
+  width: 220px;
+  text-align: center;
+}/*# sourceMappingURL=story.css.map */

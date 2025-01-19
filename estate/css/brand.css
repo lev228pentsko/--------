@@ -1,0 +1,23 @@
+.brand .container {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.brand .container h5 {
+  font-weight: 500;
+  color: #808080;
+}
+.brand .container .brand__list {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  position: relative;
+}
+.brand .container .brand__list img {
+  mix-blend-mode: luminosity;
+}/*# sourceMappingURL=brand.css.map */

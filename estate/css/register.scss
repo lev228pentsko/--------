@@ -1,0 +1,46 @@
+.register{
+        
+    .container{
+        background-image: url("/images/icons/man.png");
+        background-position: center;
+        background-size: cover;
+        height: 320px;
+        width: 1200px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        .register__wrapper{
+            display: flex;
+            align-items: center;
+            margin-left: 420px;
+            .register__text{
+                margin-top: 60px;
+
+                h2{
+                    font-weight: 600;
+                    font-size: 39.8px;
+                    color: #fff;
+                }
+                p{
+                    font-weight: 400;
+                    color: #fff;
+                    width: 344px;
+                    margin-top: 20px;
+                }
+            }
+            .btn-login{
+                margin-top: 60px;
+                margin-left: 85px;
+                color: #3A0CA3;
+                background-color: #fff;
+                width: 170px;
+                height: 50px;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 500;
+            }
+        }
+    }
+}

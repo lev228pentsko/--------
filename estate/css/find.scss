@@ -1,0 +1,272 @@
+.find{
+    height: 1000px;
+    margin-top: -790px;
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 355px;
+        padding: 0 60px;
+        .find__wrapper{
+            width: 350px;
+
+            h2{
+                font-weight: 500;
+                font-size: 19.4px;
+                color: #4361EE;
+                letter-spacing: 3px;
+            }
+            h1{
+                margin-top: 30px;
+                font-weight: 600;
+                font-size: 57.3px;
+                width: 580px;
+                color: #0B090A;
+                line-height: 65px;
+            }
+            p{
+                width: 580px;
+                font-weight: 400;
+                line-height: 26px;
+                color: #808080;
+                margin-top: 40px;
+            }
+
+            .find__wrapper-switch{
+                padding-left: 190px;
+                position: relative;
+                z-index: 2;
+                margin-top: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                row-gap: 10px;
+                height: 340px;
+                
+                .top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                    .slider{
+                        width: 540px;
+                        height: 340px;
+                        overflow: hidden;
+                        border-radius: 20px;
+                        margin-left: -20px;
+
+
+                        .b{
+                            box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+                            width: 100%;
+                            height: 100%;
+                            display: none;
+                            object-fit: cover;
+                        }
+
+
+                        .block{
+                            display: block;
+                        }
+                    }
+
+                    .arrow{
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                        position: relative;
+                        z-index: 2;
+                    }
+                    .arrow-right{
+                        transform: rotate(180deg);
+                        margin-left: -20px;
+                    }
+                }
+
+                #bottom{
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+    
+                    .switch__stroke{
+                        width: 100px;
+                        height: 4px;
+                        position: relative;
+                        z-index: 2;
+                        border-radius: 30px;
+                        background-color: #fff;   
+                        opacity: 0.5;
+                    }
+                    .active{
+                        background-color: #4361EE;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .find__input{
+            box-shadow: 10px 30px 50px rgba(0, 0, 0, 0.05);
+            margin-top: 95px;
+            overflow: hidden;
+            position: relative;
+            z-index: 2;
+            width: 420px;
+            height: 580px;
+            background-color: #FFFFFF;
+            border-radius: 30px;
+
+            .find__input-header{
+                height: 80px;
+                
+                
+                .find__input-title{
+                    padding-top: 30px;
+                    display: flex;
+                    justify-content: center;
+                    gap: 125px;
+                    font-weight: 600;
+                    
+                    .btn{
+                        border: none;
+                        background-color: #fff;
+
+                        color: #808080;
+
+                        &.active{
+                            color: #3A0CA3;
+                            font-weight: 600;
+                            font-size: 16px;
+                        }
+                        span{
+                            font-weight: 600;
+                            font-size: 16px;
+                            transition: 0.5s ease;
+                        }
+                    }
+                }
+                .find__input-stroke{
+                    ul{
+                        padding-top: 20px;
+                    }
+                    li{     
+                        span{
+                            margin-top: -3px;
+                            display: flex;
+                            width: 150px;
+                            height: 4px;
+                            background-color: #3A0CA3;
+                            border-radius: 20px;
+                            left: 0;
+                            margin-left: 40px;
+                            position: absolute;
+                            transition: 0.5s ease;
+                            
+                        }
+                    }
+                }
+                .header-stroke{
+                    display: flex;
+                    background-color: #AAAAAA;
+                    height: 2px;
+                    opacity: 0.6;
+                }
+            }
+            
+            
+            .find__input-input{
+                overflow: hidden;
+                .sale{
+                    position: absolute;
+                }
+                .rent{
+                    position: relative;
+                }
+                
+                .input{
+                    margin-top: 50px;
+                }
+                input{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 30px;
+                    width: 340px;
+                    height: 60px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding-left: 20px;
+                    background-color:   rgba(212, 212, 212, 0.2);
+                    border: none;
+                    color: rgba(109, 106, 117, 0.5);
+                    border-radius: 20px;  
+                }
+                #sale {
+                    left: 40px;
+                    transition: 0.5s ease;
+                  }
+          
+                  #rent {
+                    left: 420px;
+                    transition: 0.5s ease;
+                  }
+
+                
+                
+                input::placeholder{
+                    color: rgba(109, 106, 117, 0.5);
+                }
+                input:focus {
+                    outline: none;
+                }
+                select:focus {
+                    outline: none;
+                }
+            }
+            
+            .advance{
+                height: 14px;
+                margin-top: 20px;
+
+                align-items: center;
+                a{   
+                    display: flex;
+                    align-items: center;
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #3A0CA3;
+                    height: 9px;            
+                    &::before{
+                      display: inline-block;
+                      height: 14px;
+                      width: 14px;
+                      content: url(/images/icons/advance_.png);
+                      margin-right: 10px;
+                    }
+                }
+            }
+            .btn-add{
+                width: 340px;
+                height: 60px;
+                background-color: #3A0CA3;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 500;
+                border-radius: 30px;
+                margin-top: 60px;
+                
+                &::before{
+                    content: url('/images/icons/search.png');
+                    display: inline-block;
+                    height: 20px;
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+            
+           
+        }
+    }
+}

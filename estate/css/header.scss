@@ -1,0 +1,161 @@
+.header{
+    .header__info{
+        height: 40px;
+        background-color: #3A0CA3;
+        color: white;
+        display: flex;
+        align-items: center;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            a{
+                font-size: 13.3px;
+                font-weight: 400;
+                color: white;
+            }
+            
+
+            .header__info-address{
+                
+            a.address{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 8px;
+                &::before{
+                    content: url('/images/icons/address.png');
+                    display: inline-block;
+                    width: 12px;
+                    height: 16px;
+                }
+            }
+            }
+            .header__info-support{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 30px;
+                
+                a.phone{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    &::before{
+                    content: url('/images/icons/phone.png');
+                    display: inline-block;
+                    height: 16px;
+                    width: 16px;
+                    }
+                }
+                a.mail{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    &::before{
+                    content: url('/images/icons/mail.png');
+                    display: inline-block;
+                    height: 16px;
+                    width: 16px;
+                    }
+                }
+                
+            }
+        }
+    }
+    .header__header{
+        background-color: #fff;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            ul{
+                width: 430px;
+                height: 37px;
+                
+                .home{
+                        padding: 6px 0;
+                        background-color: rgb( 67, 97, 238, 30%);
+                        border-radius: 30px;
+                    }
+                li{
+                    a{
+                        padding: 16px 13px;
+                        color: #2B2B2B;
+                    }
+                }
+            }
+            .header__list{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .header__logo{
+                height: 50px;
+                margin: 15px 0;
+                margin-left: 130px;
+                margin-right: 225px;
+            }
+            .header__login{
+                
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                .login{
+                    font-weight: 500;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    color: #1E1E1E;
+
+                    &::before{
+                        content: url('/images/icons/login.png');
+                        display: inline-block;
+                        height: 18px;
+                        width: 18px;
+                    }
+                }
+                .btn-login{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #3A0CA3;
+                    gap: 8px;   
+                    font-weight: 500;
+                    
+                    &::before{
+                        content: url('/images/icons/house-2.png');
+                        display: inline-block;
+                        height: 20px;
+                        width: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .header__back{
+        width: 1440px;
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        margin-top: -80px;
+        height: 902px;
+        background-image: url('/images/icons/rectangle.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}

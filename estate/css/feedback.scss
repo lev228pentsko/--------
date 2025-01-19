@@ -1,0 +1,113 @@
+.feedback{
+    padding: 0 60px;
+    padding-top: 217px;
+    padding-bottom: 210px;
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 130px;
+        .feedback__text{
+            h3{
+                font-weight: 500;
+                font-size: 19.4px;
+                color: #4361EE;
+                letter-spacing: 3px;
+            }
+            h2{
+                font-weight: 600;
+                font-size: 40px;
+                color: #2B2B2B;
+                margin-top: 30px;
+                width: 415px;
+            }
+            p{
+                font-weight: 400;
+                color: #2B2B2B;
+                width: 415px;
+                margin-top: 30px;
+                line-height: 26px;
+            }
+            .feedback__text-img{
+                margin-top: 60px;
+                display: flex;
+                gap: 50px;
+
+                .left{
+                    transform: rotate(180deg);
+                }
+            }
+        }
+        .feedback__card{
+            display: flex;
+            align-items: center;
+            
+            &::before{
+                content: url("/images/icons/blog-elipse.png");
+                margin-top: -370px;
+                position: relative;
+                z-index: 1;
+
+            }
+            .card{
+                margin-left: -30px;
+                margin-top: -30px;
+                width: 500px;
+                height: 358px;
+                box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);;
+                border-radius: 30px;
+                padding: 0 50px;
+                padding-top: 34px;
+                padding-bottom: 28px;
+                position: relative;
+                z-index: 2;
+
+                .top{
+                    h4{
+                        margin-top: 19px;
+                        font-weight: 500;
+                        font-size: 19.4px;
+                        color: #2B2B2B;
+                    }
+                    padding-bottom: 40px;
+                    border-bottom: 1px solid #D4D4D4;
+                }
+
+                .bottom{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        margin-top: 20px;
+                    }
+                    h4{
+                        margin-top: 19px;
+                        font-weight: 500;
+                        font-size: 19.4px;
+                        color: #2B2B2B;
+                        margin-left: 15px;
+                        padding-right: 83px;
+                    }
+
+                }
+            }
+            .feedback__stroke{
+                display: flex;
+                flex-direction: column;
+                gap: 14px;
+                margin-left: 30px;
+                .stroke{
+
+                    width: 4px;
+                    height: 37px;
+                    background-color: #AAAAAA;
+                    border-radius: 30px;
+                    opacity: 0.5;
+
+                    &.active{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

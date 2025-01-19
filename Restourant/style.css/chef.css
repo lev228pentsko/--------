@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.chef {
+  font-family: "Inter";
+  height: 1200px;
+  padding-top: 220px;
+  overflow: hidden;
+}
+.chef .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chef .😋 {
+  width: 44px;
+  height: 44px;
+  margin-top: -230px;
+  margin-left: -20px;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chef .🍕 {
+  width: 44px;
+  height: 44px;
+  margin-top: -260px;
+  margin-left: 470px;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chef .chef__btn {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  height: 69px;
+  width: 230px;
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  margin-left: 320px;
+  margin-top: -60px;
+  background-color: #FBFBFB;
+  z-index: 10;
+}
+.chef .chef__girl .chef__img {
+  position: relative;
+}
+.chef .chef__girl .chef__img .girl {
+  position: absolute;
+}
+.chef .chef__girl .chef__img .green {
+  border-top-right-radius: 140px;
+  border-top-left-radius: 140px;
+  border-bottom-left-radius: 41px;
+  border-bottom-right-radius: 41px;
+  background-color: #53EC62;
+  width: 492px;
+  height: 359px;
+}
+.chef .chef__girl .chef__img .white {
+  z-index: 8;
+  background: linear-gradient(#FAFAFA, #FCFCFC);
+  width: 492px;
+  height: 352px;
+}
+.chef .chef__text {
+  width: 665px;
+}
+.chef .chef__text h2 {
+  color: #FF6868;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.chef .chef__text h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.chef .chef__text p {
+  font-size: 26px;
+  font-weight: 500;
+  color: #555555;
+  line-height: 41.34px;
+  height: 123px;
+  margin-top: 30px;
+}
+.chef .chef__text .feedback {
+  margin-top: 67px;
+  display: flex;
+  gap: 44px;
+  align-items: center;
+}
+.chef .chef__text .feedback .feedback__img {
+  display: flex;
+  align-items: center;
+}
+.chef .chef__text .feedback .feedback__img .r {
+  margin-left: -35px;
+}
+.chef .chef__text .feedback .feedback__text {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.chef .chef__text .feedback .feedback__text h1 {
+  margin: 0;
+}
+.chef .chef__text .feedback .feedback__text p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  height: 29px;
+  margin: 0;
+  color: #807E7E;
+}
+.chef .chef__text .feedback .feedback__text div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.chef .chef__text .feedback .feedback__text div span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #454545;
+  margin-left: 15px;
+  margin-right: 17px;
+  font-family: "Inter";
+}
+.chef .chef__text .feedback .feedback__text div img {
+  height: 24px;
+  width: 24px;
+}
+.chef .chef__text .feedback h1 {
+  font-size: 26px;
+  font-weight: 600;
+}/*# sourceMappingURL=chef.css.map */

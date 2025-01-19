@@ -1,0 +1,104 @@
+.donec{
+    margin-top: 190px;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 43px;
+        .donec__text{
+            width: 500px;
+        }
+
+        h2{
+            font-weight: 500;
+            font-size: 20px;
+            letter-spacing: 3px;
+            color: #4361EE;
+        }
+        h1{
+            margin-top: 40px;
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 47px;
+            width: 500px;
+            color: #2B2B2B;
+        }
+        p{
+            margin-top: 30px;
+            font-weight: 400;
+            width: 500px;
+            line-height: 26px;
+            color: #808080;
+        }
+
+        .donec__text-card-1{
+            margin-top: 40px;
+            width: 400px;
+            height: 130px;
+            box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.06);
+            display: flex;
+            border-radius: 30px;
+            .donec__card-1{
+                margin-left: 25px;
+                h4{
+                    color: #4361EE;
+                    font-weight: 500;
+                    font-size: 20px; 
+                    display: flex;
+                    text-align: left;
+                    margin-top: 30px;
+                }
+                p{
+                    margin: 0;
+                    margin-top: 5px;
+                    width: 270px;
+                }
+            }
+            &::before{
+                    content: url('/images/icons/smarthome.png');
+                    margin: 46px 0;
+                    margin-left: 30px;
+                    display: inline-block;
+                    height: 40px;
+                    
+                }
+        }
+        .donec__text-card-2{
+            margin-top: 40px;
+            width: 400px;
+            height: 130px;
+            box-shadow: 4px 10px 30px rgba(0, 0, 0, 0.06);
+            display: flex;
+            border-radius: 30px;
+            .donec__card-2{
+                margin-left: 25px;
+                h4{
+                    color: #4361EE;
+                    font-weight: 500;
+                    font-size: 20px; 
+                    display: flex;
+                    text-align: left;
+                    margin-top: 30px;
+                }
+                p{
+                    margin: 0;
+                    margin-top: 5px;
+                    width: 270px;
+                }
+            }
+            &::before{
+                    content: url('/images/icons/user.png');
+                    margin: 46px 0;
+                    margin-left: 30px;
+                    display: inline-block;
+                    height: 40px;
+                    
+                }
+        }
+
+        .donec__img{
+            width: 577px;
+            height: 640px;
+        }
+    }
+}

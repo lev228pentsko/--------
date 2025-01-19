@@ -1,0 +1,241 @@
+.find {
+  height: 1000px;
+  margin-top: -790px;
+}
+.find .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 355px;
+  padding: 0 60px;
+}
+.find .container .find__wrapper {
+  width: 350px;
+}
+.find .container .find__wrapper h2 {
+  font-weight: 500;
+  font-size: 19.4px;
+  color: #4361EE;
+  letter-spacing: 3px;
+}
+.find .container .find__wrapper h1 {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 57.3px;
+  width: 580px;
+  color: #0B090A;
+  line-height: 65px;
+}
+.find .container .find__wrapper p {
+  width: 580px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #808080;
+  margin-top: 40px;
+}
+.find .container .find__wrapper .find__wrapper-switch {
+  padding-left: 190px;
+  position: relative;
+  z-index: 2;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 10px;
+  height: 340px;
+}
+.find .container .find__wrapper .find__wrapper-switch .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.find .container .find__wrapper .find__wrapper-switch .top .slider {
+  width: 540px;
+  height: 340px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-left: -20px;
+}
+.find .container .find__wrapper .find__wrapper-switch .top .slider .b {
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 100%;
+  display: none;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.find .container .find__wrapper .find__wrapper-switch .top .slider .block {
+  display: block;
+}
+.find .container .find__wrapper .find__wrapper-switch .top .arrow {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+.find .container .find__wrapper .find__wrapper-switch .top .arrow-right {
+  transform: rotate(180deg);
+  margin-left: -20px;
+}
+.find .container .find__wrapper .find__wrapper-switch #bottom {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.find .container .find__wrapper .find__wrapper-switch #bottom .switch__stroke {
+  width: 100px;
+  height: 4px;
+  position: relative;
+  z-index: 2;
+  border-radius: 30px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+.find .container .find__wrapper .find__wrapper-switch #bottom .active {
+  background-color: #4361EE;
+  opacity: 1;
+}
+.find .container .find__input {
+  box-shadow: 10px 30px 50px rgba(0, 0, 0, 0.05);
+  margin-top: 95px;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  width: 420px;
+  height: 580px;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+}
+.find .container .find__input .find__input-header {
+  height: 80px;
+}
+.find .container .find__input .find__input-header .find__input-title {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+  font-weight: 600;
+}
+.find .container .find__input .find__input-header .find__input-title .btn {
+  border: none;
+  background-color: #fff;
+  color: #808080;
+}
+.find .container .find__input .find__input-header .find__input-title .btn.active {
+  color: #3A0CA3;
+  font-weight: 600;
+  font-size: 16px;
+}
+.find .container .find__input .find__input-header .find__input-title .btn span {
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.5s ease;
+}
+.find .container .find__input .find__input-header .find__input-stroke ul {
+  padding-top: 20px;
+}
+.find .container .find__input .find__input-header .find__input-stroke li span {
+  margin-top: -3px;
+  display: flex;
+  width: 150px;
+  height: 4px;
+  background-color: #3A0CA3;
+  border-radius: 20px;
+  left: 0;
+  margin-left: 40px;
+  position: absolute;
+  transition: 0.5s ease;
+}
+.find .container .find__input .find__input-header .header-stroke {
+  display: flex;
+  background-color: #AAAAAA;
+  height: 2px;
+  opacity: 0.6;
+}
+.find .container .find__input .find__input-input {
+  overflow: hidden;
+}
+.find .container .find__input .find__input-input .sale {
+  position: absolute;
+}
+.find .container .find__input .find__input-input .rent {
+  position: relative;
+}
+.find .container .find__input .find__input-input .input {
+  margin-top: 50px;
+}
+.find .container .find__input .find__input-input input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 340px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 20px;
+  background-color: rgba(212, 212, 212, 0.2);
+  border: none;
+  color: rgba(109, 106, 117, 0.5);
+  border-radius: 20px;
+}
+.find .container .find__input .find__input-input #sale {
+  left: 40px;
+  transition: 0.5s ease;
+}
+.find .container .find__input .find__input-input #rent {
+  left: 420px;
+  transition: 0.5s ease;
+}
+.find .container .find__input .find__input-input input::-moz-placeholder {
+  color: rgba(109, 106, 117, 0.5);
+}
+.find .container .find__input .find__input-input input::placeholder {
+  color: rgba(109, 106, 117, 0.5);
+}
+.find .container .find__input .find__input-input input:focus {
+  outline: none;
+}
+.find .container .find__input .find__input-input select:focus {
+  outline: none;
+}
+.find .container .find__input .advance {
+  height: 14px;
+  margin-top: 20px;
+  align-items: center;
+}
+.find .container .find__input .advance a {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 13px;
+  color: #3A0CA3;
+  height: 9px;
+}
+.find .container .find__input .advance a::before {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  content: url(/images/icons/advance_.png);
+  margin-right: 10px;
+}
+.find .container .find__input .btn-add {
+  width: 340px;
+  height: 60px;
+  background-color: #3A0CA3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 30px;
+  margin-top: 60px;
+}
+.find .container .find__input .btn-add::before {
+  content: url("/images/icons/search.png");
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}/*# sourceMappingURL=find.css.map */

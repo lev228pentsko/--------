@@ -1,0 +1,40 @@
+.header {
+  padding-top: 47px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header li {
+  font-size: 20px;
+  font-weight: 500;
+  color: #272727;
+}
+.header a .with::after {
+  content: url("/images/group.png");
+  margin-left: 10px;
+}
+.header .header__contact {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 45px;
+}
+.header .header__contact img {
+  margin-right: 15px;
+}
+.header .header__contact_number {
+  background-color: #39DB4A;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: -73px;
+  margin-top: -20px;
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,51 @@
+.city {
+  padding-top: 60px;
+}
+.city .container {
+  padding: 0 50px;
+}
+.city .container h3 {
+  font-weight: 500;
+  font-size: 19.4px;
+  letter-spacing: 3px;
+  color: #4361EE;
+  margin-top: 80px;
+}
+.city .container h2 {
+  font-weight: 600;
+  font-size: 39.8px;
+  margin-top: 30px;
+}
+.city .container img.ellipse {
+  margin-left: 590px;
+}
+.city .container img.ellipse-2 {
+  margin-left: 940px;
+  margin-top: 40px;
+}
+.city .container .city__img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 80px;
+}
+.city .container .city__img .p1 {
+  width: 300px;
+  height: 320px;
+}
+.city .container .city__img .p2 {
+  width: 300px;
+  height: 320px;
+}
+.city .container .city__img .p3 {
+  width: 420px;
+  height: 320px;
+}
+.city .container .city__img .p4 {
+  width: 412px;
+  height: 320px;
+}
+.city .container .city__img .p5 {
+  width: 658px;
+  height: 320px;
+}/*# sourceMappingURL=city.css.map */

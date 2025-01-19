@@ -1,0 +1,21 @@
+.end {
+  height: 50px;
+  background-color: #0B090A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAAAAA;
+}
+.end .container {
+  display: flex;
+  gap: 460px;
+  padding-left: 60px;
+}
+.end p {
+  font-weight: 400;
+}
+.end .right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}/*# sourceMappingURL=end.css.map */

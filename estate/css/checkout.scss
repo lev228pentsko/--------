@@ -1,0 +1,151 @@
+.checkout{
+    margin-top: 200px;
+    padding-bottom: 100px;
+    .container{
+        
+        
+        .checkout__wrapper-text{
+            padding-left: 60px;
+            padding-right: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .checkout__text{
+                h2{
+                    font-weight: 500;
+                    font-size: 20px;
+                    color: #4361EE;
+                    letter-spacing: 3px;
+                }
+                h1{
+                    margin: 0;
+                    margin-top: 30px;
+                    font-weight: 600;
+                    font-size: 40px;
+                    color: #2B2B2B;
+                }
+                p{
+                    margin-top: 30px;
+                    font-weight: 400;
+                    color: #808080;
+                    width: 500px;
+                }
+            }
+            .checkout__btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                .btn-rent1{
+                    border: 1px solid #3A0CA3;;
+                    background-color: #fff;
+                    width: 80px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 30px;
+                }
+                .btn-rent2{
+                    color: #fff;
+                    background-color: #3A0CA3;
+                    width: 90px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 30px;
+                }
+                .btn-rent3{
+                    border: 1px solid #3A0CA3;;
+                    background-color: #fff;
+                    width: 100px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 30px;
+                }
+    
+            }
+        }
+        .checkout__cards{
+        width: 1120px;
+        
+        flex-wrap: wrap;
+        margin-left: 60px;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+       
+        overflow: hidden;
+        .checkout__card{
+            width: 340px;
+            height: 570px;
+
+            
+            img{
+                width: 340px;
+                height: 340px;
+            }
+            h3{
+                margin: 0;
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 28px;
+                color: #2B2B2B;
+            }
+            h4{
+                margin: 0;
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 19.4px;
+                color: #2B2B2B;
+            }
+            p{
+                margin: 0;
+                margin-top: 20px;
+                font-weight: 400;
+                color: #808080;
+            }
+
+            .room{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                height: 21.5px;
+                margin-top: 10px;
+                .beds{
+                    color: #2B2B2B;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    &::before{
+                        content: url('/images/icons/bed.png');
+                        display: inline-block;
+                        width: 30px;
+                        height: 21.5px;
+                    }
+                }
+                .bath{
+                    color: #2B2B2B;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    &::before{
+                        content: url('/images/icons/bath.png');
+                        display: inline-block;
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+            }
+        }
+    }
+    }
+    
+    
+        
+    
+}

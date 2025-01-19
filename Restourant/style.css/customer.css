@@ -1,0 +1,60 @@
+.customer {
+  font-family: "Inter";
+  padding-bottom: 210px;
+}
+.customer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.customer .container .customer__subtitle {
+  color: #FF6868;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+.customer .container .customer__title {
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight: 700;
+}
+.customer .container .container__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 38px;
+}
+.customer .container .container__cards .container__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 325px;
+  height: 325px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.customer .container .container__cards .container__card .container__card-img {
+  margin-top: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  background-color: #C1F1C6;
+}
+.customer .container .container__cards .container__card .container__card-title {
+  margin-top: 13px;
+  margin-bottom: 0;
+}
+.customer .container .container__cards .container__card .container__card-desc {
+  margin: 0;
+  margin-top: 12px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #555555;
+}/*# sourceMappingURL=customer.css.map */

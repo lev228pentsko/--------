@@ -1,0 +1,57 @@
+.city{
+    
+    padding-top: 60px;
+    .container{
+        
+        padding: 0 50px;
+
+        h3{
+            font-weight: 500;
+            font-size: 19.4px;
+            letter-spacing: 3px;
+            color: #4361EE;
+            margin-top: 80px;
+        }
+        h2{
+            font-weight: 600;
+            font-size: 39.8px;
+            margin-top: 30px;
+        }
+
+        img.ellipse{
+            margin-left: 590px;
+        }
+        img.ellipse-2{
+            margin-left: 940px;
+            margin-top: 40px;
+        }
+        .city__img{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin-top: 80px;
+
+            .p1{
+                width: 300px;
+                height: 320px;
+            }
+            .p2{
+                width: 300px;
+                height: 320px;
+            }
+            .p3{
+                width: 420px;
+                height: 320px;
+            }
+            .p4{
+                width: 412px;
+                height: 320px;
+            }
+            .p5{
+                width: 658px;
+                height: 320px;
+            }
+        }
+    }
+    
+}
